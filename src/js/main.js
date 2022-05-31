@@ -3,7 +3,7 @@ import pokemons from "./data.js";
 function creaNodo()
 
 
-function contenidoNodo(newImg,newName,newGras ) {
+function contenidoNodo(newImg,newName,newGras){
     let imagen = newImg;
     let nombre = newName;
     let varGras = newGras;
@@ -24,5 +24,7 @@ function contenidoNodo(newImg,newName,newGras ) {
         </article>`
 }
 
-contenidoNodo('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',"bulbasaur","water");
+contenidoNodo('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',"bulbasaur1","water");
+contenidoNodo('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',"bulbasaur2","water");
+contenidoNodo('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',"bulbasaur3","water");
 
