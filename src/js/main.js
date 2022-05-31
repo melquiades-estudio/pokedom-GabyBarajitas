@@ -29,14 +29,14 @@ function main(){
   let i = 0;
 
   sizeArr = pokemons.length;
-  console.log(pokemons);
-  console.log(sizeArr);
-
-  console.log(concatNodes);
-  concatNodes = concatNodes + newNode('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',"bulbasaur1","water");
-  console.log(concatNodes);
-  concatNodes = concatNodes + newNode('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',"bulbasaur1","water");
-  console.log(concatNodes);
+  
+  for (i; i < sizeArr; i++ ){
+    imagenPoke = pokemons[i].sprite;
+    nombrePoke = pokemons[i].name;
+    tipoPoke = pokemons[i].type;
+    concatNodes = concatNodes + newNode(imagenPoke,nombrePoke,tipoPoke);
+  }
+  insertNode(concatNodes);
 }
 
 main()
