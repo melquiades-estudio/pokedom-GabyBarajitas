@@ -13,7 +13,7 @@ function contenidoNodo(newImg,newName,newGras ) {
     <article class="list-pokemons-item">
           <div class="list-pokemons-item-content">
             <img
-              src= ${imagen}}
+              src= ${imagen}
               alt="pokemon-1"
             />
             <h3>
